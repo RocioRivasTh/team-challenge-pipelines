@@ -169,3 +169,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Modelos guardados
+/src/models/*.pkl
+
+# Archivos de datos grandes
+/src/data/*.csv
+
+# Archivos de pruebas de Jupyter Notebook
+/src/notebooks/*.ipynb_checkpoints
