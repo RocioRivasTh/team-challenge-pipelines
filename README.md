@@ -13,45 +13,45 @@ Este es el repositorio para el Team Challenge de Pipelines en Scikit-learn.
 ## Estructura del repositorio
 
 team-challenge-pipelines
-src/
-data/ → Dataset de entrenamiento y prueba
-models/ → Modelos entrenados
-result_notebooks/ → Notebooks con código final
-notebooks/ → Notebooks de prueba (opcional)
-utils/ → Funciones auxiliares (opcional)
+- src/
+- data/ → Dataset de entrenamiento y prueba
+- models/ → Modelos entrenados
+- result_notebooks/ → Notebooks con código final
+- notebooks/ → Notebooks de prueba (opcional)
+- utils/ → Funciones auxiliares (opcional)
 
-README.md → Documentación
-.gitignore → Archivos ignorados
-requirements.txt → Dependencias del proyecto
+- README.md → Documentación
+- .gitignore → Archivos ignorados
+- requirements.txt → Dependencias del proyecto
 
 
-Explicación del Código
+## Explicación del Código
 
 El código del proyecto está implementado en Jupyter Notebooks, principalmente en los archivos Pipelines_I.ipynb y Pipelines_II.ipynb. Estos notebooks contienen el flujo de trabajo para:
 
-Carga y exploración de datos: Se importan las librerías necesarias y se carga el dataset.
+- Carga y exploración de datos: Se importan las librerías necesarias y se carga el dataset.
 
 Preprocesamiento de datos:
 
-Manejo de valores nulos.
+- Manejo de valores nulos.
 
-Transformación de variables categóricas.
+- Transformación de variables categóricas.
 
-Normalización y escalado de datos.
+- Normalización y escalado de datos.
 
 Construcción del Pipeline:
 
-Se definen los pasos del pipeline, incluyendo preprocesamiento y modelado.
+- Se definen los pasos del pipeline, incluyendo preprocesamiento y modelado.
 
-Se usan Pipeline y ColumnTransformer de Scikit-learn.
+- Se usan Pipeline y ColumnTransformer de Scikit-learn.
 
 Entrenamiento y Evaluación del Modelo:
 
-Se dividen los datos en conjuntos de entrenamiento y prueba.
+- Se dividen los datos en conjuntos de entrenamiento y prueba.
 
-Se entrena el modelo utilizando cross-validation.
+- Se entrena el modelo utilizando cross-validation.
 
-Se evalúa el rendimiento del modelo con métricas como accuracy, precision, recall y f1-score.
+- Se evalúa el rendimiento del modelo con métricas como accuracy, precision, recall y f1-score.
 
 Cómo Ejecutar el Proyecto
 
@@ -73,10 +73,6 @@ pip install -r requirements.txt
 4. Ejecutar los Notebooks
 
 Abrir Jupyter Notebook y ejecutar Pipelines_I.ipynb y Pipelines_II.ipynb.
-
-jupyter notebook
-
-Desde la interfaz de Jupyter, navegar hasta los notebooks y ejecutarlos célula por célula.
 
 5. Guardar Modelos Entrenados
 
