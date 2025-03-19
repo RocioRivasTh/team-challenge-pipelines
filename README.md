@@ -1,5 +1,5 @@
 # Team Challenge: Pipelines
-
+Presentacion: https://view.genially.com/67db0253c049f1c702594afb 
 ## Descripción
 Este es el repositorio para el Team Challenge de Pipelines en Scikit-learn.
 
